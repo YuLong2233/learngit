@@ -24,8 +24,6 @@ p{
 }
 
 .centerFont{
-	float: left;
-	top: 30%;
 	margin: auto 10%;
 	margin-bottom: 100px;
 }
@@ -38,7 +36,9 @@ p{
 	float: left;
 	margin-left: 10%;
 }
-
+.logoLeft p{
+	padding-left: -10px;
+}
 .logoRight{
 	float: right;
 	margin-right: 10%;
